@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensions for result activity. -->
+    <dimen name="resultTextViewVertical">20dp</dimen>
+    <dimen name="resultTextViewHorizontal">24dp</dimen>
+    <dimen name="resultTextViewSize">16sp</dimen>
+    <dimen name="resultButtonVertical">45dp</dimen>
+    <dimen name="resultButtonSize">16sp</dimen>
+    <dimen name="resultStatisticsVertical">45dp</dimen>
+    <dimen name="resultStatisticsSize">30sp</dimen>
+    <!-- Dimensions for quiz activity. -->
+    <dimen name="quizQuestionSize">20sp</dimen>
+    <dimen name="quizButtonTextSize">14sp</dimen>
+    <dimen name="quizButtonMargin">10dp</dimen>
+    <dimen name="quizNextButtonVertical">40dp</dimen>
+    <dimen name="quizNextButtonSize">16sp</dimen>
+    <!-- Dimensions for Main Activity. -->
+    <dimen name="mainMarginTop">24dp</dimen>
+    <dimen name="mainTextSize">24sp</dimen>
+    <dimen name="mainMadeByTextSize">16sp</dimen>
+</resources>
