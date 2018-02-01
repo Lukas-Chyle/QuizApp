@@ -1,0 +1,84 @@
+<resources>
+
+    <string name="app_name">Quiz: Java Code</string>
+
+    <!-- intro message and button texts. -->
+    <string name="intro">Welcome to this Quiz\nabout Java code,\nclick on Start when ready.\nGood luck!</string>
+    <string name="creator">Made by Lukas Chyle</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="restart">try again</string>
+
+    <!-- Questions. -->
+    <string name="question1">Question 1\n\nwhich is\nthe logical operator OR?</string>
+    <string name="question2">Question 2\n\nWhat of the following is\nthe default value of an\ninstance variable?</string>
+    <string name="question3">Question 3\n\nWhich of the below\nis valid way to\ninstantiate an array in java?</string>
+    <string name="question4">Question 4\n\nWhich loop type would you use\nto repeat a task a set number of times?</string>
+    <string name="question5">Question 5\n\nWhat is the output of this program?\n\n
+        class MainActivity {\n
+        public static void main(String args[]){\n
+        boolean var1 = true;\n
+        boolean var2 = false;\n
+	    System.out.println((var1 &amp; var2));\n
+        }\n}</string>
+    <string name="question6">Question 6\n\nWhich of the following\nwould you use to test\na variable for five different values?</string>
+
+    <!-- Answers for question 1 -->
+    <string name="A_1">!=</string>
+    <string name="B_1">==</string>
+    <string name="C_1">||</string>
+    <string name="D_1">+-</string>
+
+    <!-- Answers for question 2 -->
+    <string name="A_2">null</string>
+    <string name="B_2">0</string>
+    <string name="C_2">not defined</string>
+    <string name="D_2">Depends upon\nthe type of\nvariable</string>
+
+    <!-- Answers for question 3 -->
+    <string name="A_3">int myArray [] = (5, 2, 3);</string>
+    <string name="B_3">int myArray [] = {2, 3, 5};</string>
+    <string name="C_3">int myArray [] = [1, 2, 3];</string>
+    <string name="D_3">int myArray = {2, 5, 3};</string>
+
+    <!-- Answers for question 4 -->
+    <string name="A_4">do-while</string>
+    <string name="B_4">while</string>
+    <string name="C_4">switch</string>
+    <string name="D_4">for</string>
+
+    <!-- Answers for question 5 -->
+    <string name="A_5">true</string>
+    <string name="B_5">false</string>
+    <string name="C_5">true false</string>
+    <string name="D_5">false true</string>
+
+    <!-- Answers for question 6 -->
+    <string name="A_6">switch statement</string>
+    <string name="B_6">else statement</string>
+    <string name="C_6">if statement</string>
+    <string name="D_6">else-if statement</string>
+
+    <!-- Answers and explanations in the result activity -->
+    <string name="answer1">Question 1\nAnswer: || is the logical operator OR</string>
+    <string name="answer2">Question 2\nAnswer: Depends upon the type of variable\n\nExplanation:\n
+        Instance variables are assigned default values based on their types.\n
+        For example, int variable is assigned 0 and an object type variable is assigned null as default value.</string>
+    <string name="answer3">Question 3\nAnswer: int myArray [] = {1, 3, 5};\n\nExplanation:\n
+        int myArray [] = (5, 2, 3);\nIs invalid because array elements are defined in curly braces {}.\n\n
+        int myArray [] = [1, 2, 3];;\nIs invalid because array elements are defined in curly braces {}.\n\n
+        int myArray = {2, 5, 3};\nIs invalid because [] is needed for it to be declared an array.</string>
+    <string name="answer4">Question 4\nAnswer: for\n\nExplanation:\n
+        The for loop is used to repeat a task a set number of times.\n
+        The while and do-while loops repeat a segment of code an unknown number of times.\n
+        Switch is a conditional statement, not a loop.</string>
+    <string name="answer5">Question 5\nanswer: False\n\nExplanation:\n
+        boolean ‘&amp;’ operator always returns true or false.\n
+        var1 is defined true and var2 is defined false hence their ‘&amp;’ operator result is false.</string>
+    <string name="answer6">Question 6\nAnswer: switch statement\n\nExplanation:\n
+        The switch statement is specifically designed to test one variable for a number of possible values.</string>
+
+    <string name="toast1">You need to pick an answer.</string>
+
+</resources>
+
