@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizjavacode.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/java" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/mainMarginTop"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/intro"
+        android:textColor="@color/javaBlue"
+        android:textSize="@dimen/mainTextSize" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/mainMarginTop"
+        android:background="@color/javaRed"
+        android:onClick="nextActivity"
+        android:text="@string/start"
+        android:textColor="@color/whiteBackground"
+        android:textSize="@dimen/mainTextSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/mainMarginTop"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/creator"
+        android:textSize="@dimen/mainMadeByTextSize" />
+
+</LinearLayout>
