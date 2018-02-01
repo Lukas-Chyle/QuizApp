@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizjavacode.MainActivity">
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="@string/question1"
+        android:textColor="@color/javaBlue"
+        android:textSize="@dimen/quizQuestionSize" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/quizButtonMargin"
+            android:layout_weight="1"
+            android:background="@color/javaRed"
+            android:onClick="A"
+            android:text="@string/A_1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/quizButtonTextSize" />
+
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/quizButtonMargin"
+            android:layout_weight="1"
+            android:background="@color/javaRed"
+            android:onClick="B"
+            android:text="@string/B_1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/quizButtonTextSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/quizButtonMargin"
+            android:layout_weight="1"
+            android:background="@color/javaRed"
+            android:onClick="C"
+            android:text="@string/C_1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/quizButtonTextSize" />
+
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/quizButtonMargin"
+            android:layout_weight="1"
+            android:background="@color/javaRed"
+            android:onClick="D"
+            android:text="@string/D_1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/quizButtonTextSize" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/quizNextButtonVertical"
+        android:background="@color/javaRed"
+        android:onClick="nextQuestion"
+        android:text="@string/next"
+        android:textColor="@color/whiteBackground"
+        android:textSize="@dimen/quizNextButtonSize" />
+
+
+</LinearLayout>
