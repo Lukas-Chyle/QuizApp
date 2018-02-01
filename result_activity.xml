@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    tools:context="com.example.android.quizjavacode.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/statistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="@dimen/resultStatisticsVertical"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/javaBlue"
+            android:textSize="@dimen/resultStatisticsSize" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="@dimen/resultButtonVertical"
+            android:background="@color/javaRed"
+            android:onClick="restart"
+            android:text="@string/restart"
+            android:textColor="@color/whiteBackground"
+            android:textSize="@dimen/resultButtonSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/resultTextViewHorizontal"
+            android:layout_marginVertical="@dimen/resultTextViewVertical"
+            android:text="@string/answer1"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/resultTextViewSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/resultTextViewHorizontal"
+            android:layout_marginVertical="@dimen/resultTextViewVertical"
+            android:text="@string/answer2"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/resultTextViewSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/resultTextViewHorizontal"
+            android:layout_marginVertical="@dimen/resultTextViewVertical"
+            android:text="@string/answer3"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/resultTextViewSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/resultTextViewHorizontal"
+            android:layout_marginVertical="@dimen/resultTextViewVertical"
+            android:text="@string/answer4"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/resultTextViewSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/resultTextViewHorizontal"
+            android:layout_marginVertical="@dimen/resultTextViewVertical"
+            android:text="@string/answer5"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/resultTextViewSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/resultTextViewHorizontal"
+            android:layout_marginVertical="@dimen/resultTextViewVertical"
+            android:text="@string/answer6"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/resultTextViewSize" />
+
+
+    </LinearLayout>
+</ScrollView>
