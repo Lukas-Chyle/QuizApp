@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <color name="textBlack">#000000</color>
+    <color name="whiteBackground">#FFFFFF</color>
+    <color name="javaRed">#C62828</color>
+    <color name="javaBlue">#0277BD</color>
+    <color name="clickedButton">#EF5350</color>
+
+
+</resources>
