@@ -151,66 +151,47 @@ public class quiz_activity extends AppCompatActivity {
      * (The first question was displayed from the beginning so case 1 here is actually question nr 2.)
      */
     private void updateQuestion() {
+        TextView newTextQuestion = (TextView) findViewById(R.id.question);
+        TextView newTextA = (TextView) findViewById(R.id.buttonA);
+        TextView newTextB = (TextView) findViewById(R.id.buttonB);
+        TextView newTextC = (TextView) findViewById(R.id.buttonC);
+        TextView newTextD = (TextView) findViewById(R.id.buttonD);
         switch (question) {
             case 1:
-                TextView newText = (TextView) findViewById(R.id.question);
-                newText.setText(R.string.question2);
-                newText = (TextView) findViewById(R.id.buttonA);
-                newText.setText(R.string.A_2);
-                newText = (TextView) findViewById(R.id.buttonB);
-                newText.setText(R.string.B_2);
-                newText = (TextView) findViewById(R.id.buttonC);
-                newText.setText(R.string.C_2);
-                newText = (TextView) findViewById(R.id.buttonD);
-                newText.setText(R.string.D_2);
+
+                newTextQuestion.setText(R.string.question2);
+                newTextA.setText(R.string.A_2);
+                newTextB.setText(R.string.B_2);
+                newTextC.setText(R.string.C_2);
+                newTextD.setText(R.string.D_2);
                 break;
             case 2:
-                newText = (TextView) findViewById(R.id.question);
-                newText.setText(R.string.question3);
-                newText = (TextView) findViewById(R.id.buttonA);
-                newText.setText(R.string.A_3);
-                newText = (TextView) findViewById(R.id.buttonB);
-                newText.setText(R.string.B_3);
-                newText = (TextView) findViewById(R.id.buttonC);
-                newText.setText(R.string.C_3);
-                newText = (TextView) findViewById(R.id.buttonD);
-                newText.setText(R.string.D_3);
+                newTextQuestion.setText(R.string.question3);
+                newTextA.setText(R.string.A_3);
+                newTextB.setText(R.string.B_3);
+                newTextC.setText(R.string.C_3);
+                newTextD.setText(R.string.D_3);
                 break;
             case 3:
-                newText = (TextView) findViewById(R.id.question);
-                newText.setText(R.string.question4);
-                newText = (TextView) findViewById(R.id.buttonA);
-                newText.setText(R.string.A_4);
-                newText = (TextView) findViewById(R.id.buttonB);
-                newText.setText(R.string.B_4);
-                newText = (TextView) findViewById(R.id.buttonC);
-                newText.setText(R.string.C_4);
-                newText = (TextView) findViewById(R.id.buttonD);
-                newText.setText(R.string.D_4);
+                newTextQuestion.setText(R.string.question4);
+                newTextA.setText(R.string.A_4);
+                newTextB.setText(R.string.B_4);
+                newTextC.setText(R.string.C_4);
+                newTextD.setText(R.string.D_4);
                 break;
             case 4:
-                newText = (TextView) findViewById(R.id.question);
-                newText.setText(R.string.question5);
-                newText = (TextView) findViewById(R.id.buttonA);
-                newText.setText(R.string.A_5);
-                newText = (TextView) findViewById(R.id.buttonB);
-                newText.setText(R.string.B_5);
-                newText = (TextView) findViewById(R.id.buttonC);
-                newText.setText(R.string.C_5);
-                newText = (TextView) findViewById(R.id.buttonD);
-                newText.setText(R.string.D_5);
+                newTextQuestion.setText(R.string.question5);
+                newTextA.setText(R.string.A_5);
+                newTextB.setText(R.string.B_5);
+                newTextC.setText(R.string.C_5);
+                newTextD.setText(R.string.D_5);
                 break;
             case 5:
-                newText = (TextView) findViewById(R.id.question);
-                newText.setText(R.string.question6);
-                newText = (TextView) findViewById(R.id.buttonA);
-                newText.setText(R.string.A_6);
-                newText = (TextView) findViewById(R.id.buttonB);
-                newText.setText(R.string.B_6);
-                newText = (TextView) findViewById(R.id.buttonC);
-                newText.setText(R.string.C_6);
-                newText = (TextView) findViewById(R.id.buttonD);
-                newText.setText(R.string.D_6);
+                newTextQuestion.setText(R.string.question6);
+                newTextA.setText(R.string.A_6);
+                newTextB.setText(R.string.B_6);
+                newTextC.setText(R.string.C_6);
+                newTextD.setText(R.string.D_6);
                 break;
         }
     }
@@ -229,14 +210,14 @@ public class quiz_activity extends AppCompatActivity {
      * Method resetButtonColor: resets the background color of all the answer buttons to default.
      */
     private void resetButtonsColor() {
-        TextView redColor = (TextView) findViewById(R.id.buttonA);
-        redColor.setBackgroundResource(R.color.javaRed);
-        redColor = (TextView) findViewById(R.id.buttonB);
-        redColor.setBackgroundResource(R.color.javaRed);
-        redColor = (TextView) findViewById(R.id.buttonC);
-        redColor.setBackgroundResource(R.color.javaRed);
-        redColor = (TextView) findViewById(R.id.buttonD);
-        redColor.setBackgroundResource(R.color.javaRed);
+        TextView setColorA = (TextView) findViewById(R.id.buttonA);
+        TextView setColorB = (TextView) findViewById(R.id.buttonB);
+        TextView setColorC = (TextView) findViewById(R.id.buttonC);
+        TextView setColorD = (TextView) findViewById(R.id.buttonD);
+        setColorA.setBackgroundResource(R.color.javaRed);
+        setColorB.setBackgroundResource(R.color.javaRed);
+        setColorC.setBackgroundResource(R.color.javaRed);
+        setColorD.setBackgroundResource(R.color.javaRed);
     }
 }
 
